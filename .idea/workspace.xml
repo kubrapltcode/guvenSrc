@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a55778a-ef87-4bd7-aea8-8c23ae710394" name="Default Changelist" comment="BİTTİİİİİİ." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lmXobZXuIRmf0r2XJlGkyPXBZ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/images/users" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="calendar-init.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/calendar-init.js" working-dir="$PROJECT_DIR$/assets/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.calendar-init.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a55778a-ef87-4bd7-aea8-8c23ae710394" name="Default Changelist" comment="" />
+      <created>1608203416091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608203416091</updated>
+      <workItem from="1608203417136" duration="2254000" />
+      <workItem from="1608278845931" duration="17054000" />
+      <workItem from="1608303166848" duration="50000" />
+      <workItem from="1608303947144" duration="75000" />
+      <workItem from="1608307245291" duration="2898000" />
+      <workItem from="1608316163077" duration="5199000" />
+      <workItem from="1608329735481" duration="2269000" />
+      <workItem from="1608367840820" duration="22331000" />
+      <workItem from="1608426977845" duration="53000" />
+      <workItem from="1608458333258" duration="3698000" />
+      <workItem from="1608468933408" duration="1938000" />
+      <workItem from="1608489071894" duration="1872000" />
+      <workItem from="1608491059743" duration="124000" />
+      <workItem from="1608496399541" duration="26000" />
+      <workItem from="1608499329167" duration="311000" />
+      <workItem from="1608533421810" duration="21126000" />
+      <workItem from="1608584364722" duration="168000" />
+      <workItem from="1608591049656" duration="8000" />
+      <workItem from="1608591124305" duration="155000" />
+      <workItem from="1608594735876" duration="3304000" />
+      <workItem from="1608618247973" duration="11510000" />
+      <workItem from="1608633293336" duration="287000" />
+      <workItem from="1608640339585" duration="137000" />
+    </task>
+    <task id="LOCAL-00001" summary="A yaptım">
+      <created>1608206014290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608206014290</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Kategoriler ve Top Bar Bitti">
+      <created>1608283538502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608283538502</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Kategoriler ve Top Bar Bittii">
+      <created>1608284815090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608284815090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Kategoriler Değişti">
+      <created>1608303968008</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608303968008</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bütün ekranları isimleriyle oluşturdum">
+      <created>1608310015360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608310015360</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ders oluştur ve sınıf oluştur bitti">
+      <created>1608367872926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608367872926</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" Ders oluştur sınıf oluştur ve ödeme planı oluştur bitti">
+      <created>1608374492960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608374492960</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hatalar giderildi, oluşturlar bitti">
+      <created>1608384651430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608384651430</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Öğrenci ve öğretmen oluştur düzeltildi yeniden eklendi">
+      <created>1608416031676</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608416031676</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Oluştur ve Listelemelerin hepsi bitti">
+      <created>1608423588627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608423588627</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ana Sayfa Hariç Bitti">
+      <created>1608463881418</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608463881418</updated>
+    </task>
+    <task id="LOCAL-00012" summary="güncelleme hata giderildi">
+      <created>1608464033926</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608464033926</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ödemelerim kısmı bitti">
+      <created>1608473727520</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608473727520</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Front-End Bitti">
+      <created>1608490816378</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608490816378</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Front-End Tamamen Bitti">
+      <created>1608534440819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608534440819</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Öğrenci ana sayfa hariç bitti">
+      <created>1608561885568</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608561885568</updated>
+    </task>
+    <task id="LOCAL-00017" summary=" Artı butonları da eklendi öğrenci ana sayfa hariç bitti">
+      <created>1608598176464</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608598176464</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Front-End Tamamen Bitti.">
+      <created>1608631391695</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608631391695</updated>
+    </task>
+    <task id="LOCAL-00019" summary=".">
+      <created>1608631669693</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608631669693</updated>
+    </task>
+    <task id="LOCAL-00020" summary="BİTTİİİİİİ.">
+      <created>1608632153423</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608632153423</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A yaptım" />
+    <MESSAGE value="Kategoriler ve Top Bar Bitti" />
+    <MESSAGE value="Kategoriler ve Top Bar Bittii" />
+    <MESSAGE value="Kategoriler Değişti" />
+    <MESSAGE value="bütün ekranları isimleriyle oluşturdum" />
+    <MESSAGE value="ders oluştur ve sınıf oluştur bitti" />
+    <MESSAGE value=" Ders oluştur sınıf oluştur ve ödeme planı oluştur bitti" />
+    <MESSAGE value="Hatalar giderildi, oluşturlar bitti" />
+    <MESSAGE value="Öğrenci ve öğretmen oluştur düzeltildi yeniden eklendi" />
+    <MESSAGE value="Oluştur ve Listelemelerin hepsi bitti" />
+    <MESSAGE value="Ana Sayfa Hariç Bitti" />
+    <MESSAGE value="güncelleme hata giderildi" />
+    <MESSAGE value="ödemelerim kısmı bitti" />
+    <MESSAGE value="Front-End Bitti" />
+    <MESSAGE value="Front-End Tamamen Bitti" />
+    <MESSAGE value="Öğrenci ana sayfa hariç bitti" />
+    <MESSAGE value=" Artı butonları da eklendi öğrenci ana sayfa hariç bitti" />
+    <MESSAGE value="Front-End Tamamen Bitti." />
+    <MESSAGE value="." />
+    <MESSAGE value="BİTTİİİİİİ." />
+    <option name="LAST_COMMIT_MESSAGE" value="BİTTİİİİİİ." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="354" y="105" key="#Inspections" timestamp="1608559472269">
+      <screen x="0" y="25" width="1440" height="796" />
+    </state>
+    <state x="354" y="105" key="#Inspections/0.25.1440.796@0.25.1440.796" timestamp="1608559472269" />
+    <state x="941" y="328" key="Github.ShareDialog" timestamp="1608203486210">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="941" y="328" key="Github.ShareDialog/0.25.1440.807@0.25.1440.807" timestamp="1608203486210" />
+    <state x="855" y="136" key="Github.UntrackedFilesDialog" timestamp="1608203510583">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="855" y="136" key="Github.UntrackedFilesDialog/0.25.1440.807@0.25.1440.807" timestamp="1608203510583" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1608632171626">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.25.1440.799@0.25.1440.799" timestamp="1608632171626" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.25.1440.801@0.25.1440.801" timestamp="1608625889619" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1608632171625">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.25.1440.799@0.25.1440.799" timestamp="1608632171625" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.25.1440.801@0.25.1440.801" timestamp="1608625889619" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1608632171625">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.25.1440.799@0.25.1440.799" timestamp="1608632171625" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.25.1440.801@0.25.1440.801" timestamp="1608625889618" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1608632171625">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.25.1440.799@0.25.1440.799" timestamp="1608632171625" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.25.1440.801@0.25.1440.801" timestamp="1608625889619" />
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1608632155509">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.25.1440.796@0.25.1440.796" timestamp="1608561888138" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.25.1440.798@0.25.1440.798" timestamp="1608598275159" />
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.799@0.25.1440.799" timestamp="1608632155509" />
+    <state x="320" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1608206016824" />
+    <state x="521" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608420078087">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state x="521" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.796@0.25.1440.796" timestamp="1608377066530" />
+    <state x="521" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.798@0.25.1440.798" timestamp="1608420078087" />
+    <state x="521" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.800@0.25.1440.800" timestamp="1608292780994" />
+    <state x="521" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.807@0.25.1440.807" timestamp="1608205965142" />
+    <state x="521" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.809@0.25.1440.809" timestamp="1608205713927" />
+    <state x="421" y="55" width="597" height="735" key="find.popup" timestamp="1608538553349">
+      <screen x="0" y="25" width="1440" height="796" />
+    </state>
+    <state x="421" y="55" width="597" height="735" key="find.popup/0.25.1440.796@0.25.1440.796" timestamp="1608538553349" />
+    <state x="385" y="190" key="run.anything.popup" timestamp="1608293416592">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state x="385" y="190" key="run.anything.popup/0.25.1440.798@0.25.1440.798" timestamp="1608293416592" />
+    <state x="385" y="145" width="670" height="678" key="search.everywhere.popup" timestamp="1608293924798">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state x="385" y="145" width="670" height="676" key="search.everywhere.popup/0.25.1440.796@0.25.1440.796" timestamp="1608279260803" />
+    <state x="385" y="145" width="670" height="678" key="search.everywhere.popup/0.25.1440.798@0.25.1440.798" timestamp="1608293924798" />
+    <state x="803" y="374" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608620756019">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="803" y="374" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1440.801@0.25.1440.801" timestamp="1608620756019" />
+  </component>
+</project>

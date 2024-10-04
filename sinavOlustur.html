@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Güven Sürücü Kursu</title>
+    <meta content="Admin Dashboard" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <link rel="shortcut icon" href="assets/images/guven-sk.png">
+
+    <link rel="stylesheet" href="../plugins/morris/morris.css">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+        #sidebar-menu > ul > li > a:hover,
+        #sidebar-menu > ul > li > a:focus,
+        #sidebar-menu > ul > li > a:active{
+            color: #d32f2f;
+        }
+        .submenu li a:hover {
+            color: #d32f2f;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<!-- Begin page -->
+<div id="wrapper">
+
+    <!-- Top Bar Start -->
+    <div class="topbar">
+
+        <!-- LOGO -->
+        <div class="topbar-left">
+            <a href="anaMenu.html" class="logo">
+                        <span>
+                            <img src="assets/images/guven-sk.png" alt="" height="70">
+                        </span>
+                <i>
+                    <img src="assets/images/guven-sk.png" alt="" height="22">
+                </i>
+            </a>
+        </div>
+
+        <nav class="navbar-custom" style="background-color: #d32f2f !important;">
+
+            <ul class="navbar-right d-flex list-inline float-right mb-0">
+
+
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="mdi mdi-bell noti-icon"></i>
+                        <span class="badge badge-pill badge-info noti-icon-badge" style="background-color: #333 !important; color: #fff !important;">5</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                        <!-- item-->
+                        <h6 class="dropdown-item-text">
+                            Bildirimler (5)
+                        </h6>
+                        <div class="slimscroll notification-item-list">
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                <p class="notify-details">Ödeme bulundu<span class="text-muted">Günü gelmiş ödemeniz bulunmaktadır</span></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">Ders Saati<span class="text-muted">Bugün saat 15.00 da dersiniz bulunmaktadır</span></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">Sınav<span class="text-muted">22.12.2020 15.30 da direksiyon sınavınız bulunmaktadır</span></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-warning"><i class="mdi mdi-cart-outline"></i></div>
+                                <p class="notify-details">Ödeme<span class="text-muted">Toprak Akdoğan yeni bir ödeme yaptı</span></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">Devamsızlık<span class="text-muted">18.12.2020 Tarihindeki dersinize katılmadınız</span></p>
+                            </a>
+                        </div>
+                        <!-- All-->
+                        <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
+                            Daha Fazla <i class="fi-arrow-right"></i>
+                        </a>
+                    </div>
+                </li>
+                <li class="dropdown notification-list">
+                    <div class="dropdown notification-list nav-pro-img">
+                        <a class="dropdown-toggle nav-link arrow-none waves-effect nav-user waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle m-r-5"></i>Profil</a>
+                            <a class="dropdown-item d-block" href="#"><span class="badge badge-success float-right" style="background-color: #d32f2f">1</span><i class="mdi mdi-settings m-r-5"></i>Ayarlar</a>
+                            <!--<a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline m-r-5"></i> Lock screen</a>-->
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power text-danger"></i>Çıkış Yap</a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+            <ul class="list-inline menu-left mb-0">
+                <li class="float-left">
+                    <button class="button-menu-mobile open-left waves-effect waves-light" style="background-color: #d32f2f !important;" >
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                </li>
+                <!--<li class="d-none d-sm-block">
+                    <div class="dropdown pt-3 d-inline-block">
+                        <a class="btn btn-header waves-effect waves-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Create New
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </li>-->
+            </ul>
+
+        </nav>
+
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- ========== Left Sidebar Start ========== -->
+    <div class="left side-menu">
+        <div class="slimscroll-menu" id="remove-scroll">
+
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+                <!-- Left Menu Start -->
+                <ul class="metismenu" id="side-menu">
+                    <li class="menu-title"></li>
+                    <li>
+                        <a href="anaMenu.html" class="waves-effect">
+                            <i class="mdi mdi-home"></i><span class="badge badge-primary float-right"></span> <span> Anasayfa </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="calendar.html" class="waves-effect">
+                            <i class="mdi mdi-home"></i><span class="badge badge-primary float-right"></span> <span>Öğrenci Anasayfa</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect" ><i class="mdi mdi-wallet m-r-5"></i> <span> Ödeme Planları <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span> </a>
+                        <ul class="submenu">
+                            <li><a href="odemePlaniOlustur.html" >Oluştur</a></li>
+                            <li><a href="odemePlaniListele.html">Listele</a></li>
+                            <!-- <li><a href="ui-badge.html">Badge</a></li>
+                             <li><a href="ui-cards.html">Cards</a></li>
+                             <li><a href="ui-carousel.html">Carousel</a></li>
+                             <li><a href="ui-dropdowns.html">Dropdowns</a></li>
+                             <li><a href="ui-grid.html">Grid</a></li>
+                             <li><a href="ui-images.html">Images</a></li>
+                             <li><a href="ui-modals.html">Modals</a></li>
+                             <li><a href="ui-pagination.html">Pagination</a></li>
+                             <li><a href="ui-popover-tooltips.html">Popover & Tooltips</a></li>
+                             <li><a href="ui-progressbars.html">Progress Bars</a></li>
+                             <li><a href="ui-tabs-accordions.html">Tabs & Accordions</a></li>
+                             <li><a href="ui-typography.html">Typography</a></li>
+                             <li><a href="ui-video.html">Video</a></li>-->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="odemelerim.html"><i class="mdi mdi-wallet m-r-5"></i><span>Ödemelerim</span></a>
+                    </li>
+
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-database-plus"></i> <span> Gelir <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span> </a>
+                        <ul class="submenu">
+                            <li><a href="gelirOlusturma.html">Oluştur</a></li>
+                            <li><a href="gelirGenel.html">Listele</a></li>
+
+                            <!--<li><a href="components-session-timeout.html">Session Timeout</a></li>
+                            <li><a href="components-sweet-alert.html">Sweet-Alert</a></li>-->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi mdi-database-minus"></i><span> Gider <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span> </a>
+                        <ul class="submenu">
+                            <li><a href="giderOlusturma.html">Oluştur</a></li>
+                            <li><a href="giderGenel.html">Listele</a></li>
+                            <!--<li><a href="form-validation.html">Sınıflarım</a></li>
+                             <li><a href="form-advanced.html">Form Advanced</a></li>
+                             <li><a href="form-editors.html">Form Editors</a></li>
+                             <li><a href="form-uploads.html">Form File Upload</a></li>
+                             <li><a href="form-xeditable.html">Form Xeditable</a></li>-->
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-school"></i><span> Öğrenciler <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span></a>
+                        <ul class="submenu">
+
+                            <li><a href="ogrenciOlustur.html">Oluştur</a></li>
+                            <li><a href="ogrenciListele.html">Listele</a></li>
+
+                            <!--<li><a href="charts-flot.html">Flot Chart</a></li>
+                            <li><a href="charts-c3.html">C3 Chart</a></li>
+                            <li><a href="charts-morris.html">Morris Chart</a></li>
+                            <li><a href="charts-other.html">Jquery Knob Chart</a></li>-->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-library"></i><span> Öğretmenler <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span></a>
+                        <ul class="submenu">
+
+                            <li><a href="ogretmenOlustur.html">Oluştur</a></li>
+                            <li><a href="ogretmenListele.html">Listele</a></li>
+
+                            <!--    <li><a href="tables-responsive.html">Responsive Table</a></li>
+                            <li><a href="tables-editable.html">Editable Table</a></li>-->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account-group"></i> <span> Kullanıcılar  <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span></span> </a>
+                        <ul class="submenu">
+                            <li><a href="kullaniciOlustur.html">Oluştur</a></li>
+                            <li><a href="kullaniciListele.html">Listele</a></li>
+                            <!--<li><a href="icons-fontawesome.html">Font Awesome</a></li>
+                            <li><a href="icons-themify.html">Themify Icons</a></li>
+                            <li><a href="icons-dripicons.html">Dripicons</a></li>
+                            <li><a href="icons-typicons.html">Typicons Icons</a></li>-->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="ion-clipboard" style="color: #d32f2f"></i><span style="color: #d32f2f"> Sınavlar <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span></a>
+                        <ul class="submenu">
+
+                            <li><a href="sinavOlustur.html" style="color: #d32f2f">Oluştur</a></li>
+                            <li><a href="sinavListele.html">Listele</a></li>
+
+                            <!--    <li><a href="tables-responsive.html">Responsive Table</a></li>
+                            <li><a href="tables-editable.html">Editable Table</a></li>-->
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-teach"></i><span> Sınıflar  <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span></span></a>
+                        <ul class="submenu">
+                            <li><a href="sinifOlustur.html"> Oluştur</a></li>
+                            <li><a href="sinifListele.html"> Listele</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi mdi-book-open-variant"></i><span> Dersler <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span></span></a>
+                        <ul class="submenu">
+                            <li><a href="dersOlursur.html">Oluştur</a></li>
+                            <li><a href="dersListele.html">Listele</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i
+                                class="mdi mdi-car-side"></i><span> Şubeler <span
+                                class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span></span></a>
+                        <ul class="submenu">
+                            <li><a href="subeOlustur.html">Oluştur</a></li>
+                            <li><a href="subeListele.html">Listele</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <!--<li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-google-pages"></i><span> Pages <span class="float-right menu-arrow"><i class="mdi mdi-plus"></i></span> </span></a>
+                        <ul class="submenu">
+                            <li><a href="pages-login.html">Login</a></li>
+                            <li><a href="pages-register.html">Register</a></li>
+                            <li><a href="pages-recoverpw.html">Recover Password</a></li>
+                            <li><a href="pages-lock-screen.html">Lock Screen</a></li>
+                            <li><a href="pages-timeline.html">Timeline</a></li>
+                            <li><a href="pages-invoice.html">Invoice</a></li>
+                            <li><a href="pages-directory.html">Directory</a></li>
+                            <li><a href="anaMenu.html">Blank Page</a></li>
+                            <li><a href="pages-404.html">Error 404</a></li>
+                            <li><a href="pages-500.html">Error 500</a></li>
+             </ul>
+             </li>-->
+                </ul>
+
+            </div>
+            <!-- Sidebar -->
+            <div class="clearfix"></div>
+
+        </div>
+        <!-- Sidebar -left -->
+
+    </div>
+    <!-- Left Sidebar End -->
+
+
+    <!-- ============================================================== -->
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    <div class="content-page">
+        <!-- Start content -->
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <h4 class="page-title">Sınav Oluştur</h4>
+
+
+                            <div class="state-information d-none d-sm-block">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+
+                <div class="page-content-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mt-0 header-title">Yeni Sınav Oluştur</h4>
+                                    <p class="text-muted m-b-30 ">Oluşturulmasını istediğiniz sınavın bilgilerini aşağıda istenildiği gibi doldurunuz</p>
+
+                                    <!-- Demo purpose only -->
+                                    <div style="min-height: 300px;">
+
+
+                                        <div class="form-group">
+                                            <label>TC Kimlik Numarası</label>
+                                            <input type="text" class="form-control" required placeholder="Sınava girecek öğrencinin TC kimlik numarasını yazınız"/>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Öğrenci Adı</label>
+                                            <input type="text" class="form-control" required placeholder="Sınava girecek öğrencinin adını yazınız"/>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-form-label">Sınavın Adı</label>
+                                                <select class="form-control">
+                                                    <option>Seçiniz</option>
+                                                    <option>Teorik</option>
+                                                    <option>Direksiyon</option>
+                                                </select>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleNumberInput">Ücreti</label>
+                                            <input class="form-control" type="number" value="" id="exampleNumberInput">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="example-date-input" class="col-form-label">Tarihi</label>
+                                                <input class="form-control" type="date" value="gg-aa-yyyy" id="example-date-input">
+                                        </div>
+
+                                        <div class="m-b-30">
+                                            <label>Sınav Giriş Belgesi</label>
+                                            <div class="fallback">
+                                                <input name="file" type="file" multiple="multiple">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="form-group">
+                                            <div>
+                                                <button type="submit" class="btn btn-danger waves-effect waves-light" style="background-color: #d32f2f">
+                                                    Oluştur
+                                                </button>
+                                                <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                                    Vazgeç
+                                                </button>
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end page content-->
+
+            </div> <!-- container-fluid -->
+
+        </div> <!-- content -->
+
+        <footer class="footer">
+            <p> ©2020 <a draggable="false" href="//tayfacreative.com/" target="_blank" rel="noopener">Tayfa Creative Agency</a>. Her hakkı saklıdır.</p>
+        </footer>
+
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- End Right content here -->
+    <!-- ============================================================== -->
+
+
+</div>
+<!-- END wrapper -->
+
+
+<!-- jQuery  -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/metisMenu.min.js"></script>
+<script src="assets/js/jquery.slimscroll.js"></script>
+<script src="assets/js/waves.min.js"></script>
+
+<script src="../plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+<!-- App js -->
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
